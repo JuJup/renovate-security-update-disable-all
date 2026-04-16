@@ -1,17 +1,13 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# #42682 - Vulnerability PRs are not created when Dependency is disabled via PackageRule
 
 ## Current behavior
 
-Explain the current behavior here.
+No PR for pypi "requests" security update is coming.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate should create a security update. In the logs the updates are found and have the attribute `"branchName": "renovate/pypi-requests-vulnerability"`.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/42682
