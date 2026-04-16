@@ -12,9 +12,9 @@
             "enabled": false        
         },
         {
-            "description": "Py Project 1 | Enabled",
+            "description": "Py Project 2 | Deactivate all (only security updates are active by default)",
             "matchFileNames": ["py-project2/**"],
-            "enabled": true
+            "enabled": false
         }
     ]
 }
